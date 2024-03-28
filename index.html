@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      height: 100vh;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      background-color: rgb(253, 251, 249);
+    }
+    .container {
+      max-width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 400px));
+      gap: 25px;
+      margin: 0 auto;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      /* border: 5px solid red; */
+    }
+    .cofeeDivs {
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgb(252, 243, 224);
+      padding-left: 35px;
+      padding-right: 35px;
+      box-sizing: border-box;
+      background-color: #fff;
+    }
+    .cofeename {
+      display: flex;
+      justify-content: space-between;
+    }
+    .cofeename + p {
+      color: gray;
+      margin-bottom: 30px;
+      font-size: 18px;
+    }
+    .price {
+      color: goldenrod;
+    }
+    /* for all smaller displays */
+    /* mobile devices */
+    @media screen and (max-width: 767px) {
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        background-color: rgb(253, 251, 249);
+      }
+      .container {
+        max-width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 400px));
+        gap: 25px;
+        margin: 0 auto;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        /* border: 5px solid red; */
+      }
+    }
+
+    /* for all mid sizes devices like tab */
+    @media screen and (min-width: 767px) and (max-width: 991px) {
+      body {
+        /* height: 100vh;
+      width: 100%; */
+        margin: 0;
+        padding: 0;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        background-color: rgb(253, 251, 249);
+      }
+      .container {
+        max-width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 400px));
+        gap: 25px;
+        margin: 0 auto;
+        /* align-items: center;
+        align-content: center;
+        justify-content: center; */
+        /* border: 5px solid red; */
+      }
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="cofeeDivs">
+        <div class="cofeename">
+          <h2>Cappuccino</h2>
+          <h2 class="price">$49</h2>
+        </div>
+        <p>
+          Usage of the internet is becoming more common due to rapid advance.
+        </p>
+      </div>
+
+      <div class="cofeeDivs">
+        <div class="cofeename">
+          <h2>Americano</h2>
+          <h2 class="price">$49</h2>
+        </div>
+        <p>
+          Usage of the internet is becoming more common due to rapid advance.
+        </p>
+      </div>
+
+      <div class="cofeeDivs">
+        <div class="cofeename">
+          <h2>Espresso</h2>
+          <h2 class="price">$49</h2>
+        </div>
+        <p>
+          Usage of the internet is becoming more common due to rapid advance.
+        </p>
+      </div>
+
+      <div class="cofeeDivs">
+        <div class="cofeename">
+          <h2>Macciato</h2>
+          <h2 class="price">$49</h2>
+        </div>
+        <p>
+          Usage of the internet is becoming more common due to rapid advance.
+        </p>
+      </div>
+
+      <div class="cofeeDivs">
+        <div class="cofeename">
+          <h2>Mocha</h2>
+          <h2 class="price">$49</h2>
+        </div>
+        <p>
+          Usage of the internet is becoming more common due to rapid advance.
+        </p>
+      </div>
+
+      <div class="cofeeDivs">
+        <div class="cofeename">
+          <h2>Cofee Latte</h2>
+          <h2 class="price">$49</h2>
+        </div>
+        <p>
+          Usage of the internet is becoming more common due to rapid advance.
+        </p>
+      </div>
+
+      <div class="cofeeDivs">
+        <div class="cofeename">
+          <h2>Piccolo Latte</h2>
+          <h2 class="price">$49</h2>
+        </div>
+        <p>
+          Usage of the internet is becoming more common due to rapid advance.
+        </p>
+      </div>
+
+      <div class="cofeeDivs">
+        <div class="cofeename">
+          <h2>Ristretto</h2>
+          <h2 class="price">$49</h2>
+        </div>
+        <p>
+          Usage of the internet is becoming more common due to rapid advance.
+        </p>
+      </div>
+
+      <div class="cofeeDivs">
+        <div class="cofeename">
+          <h2>Affogato</h2>
+          <h2 class="price">$49</h2>
+        </div>
+        <p>
+          Usage of the internet is becoming more common due to rapid advance.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
