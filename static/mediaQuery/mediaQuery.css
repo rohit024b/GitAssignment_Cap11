@@ -1,0 +1,48 @@
+/* for all smaller displays */
+    /* mobile devices */
+    @media screen and (max-width: 767px) {
+        body {
+          margin: 0;
+          padding: 0;
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+          background-color: rgb(253, 251, 249);
+        }
+        .container {
+          max-width: 100%;
+          height: auto;
+          display: grid;
+          grid-template-columns: repeat(1, minmax(0, 400px));
+          gap: 25px;
+          margin: 0 auto;
+          align-items: center;
+          align-content: center;
+          justify-content: center;
+          /* border: 5px solid red; */
+        }
+      }
+  
+      /* for all mid sizes devices like tab */
+      @media screen and (min-width: 767px) and (max-width: 991px) {
+        body {
+          /* height: 100vh;
+        width: 100%; */
+          margin: 0;
+          padding: 0;
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+          background-color: rgb(253, 251, 249);
+        }
+        .container {
+          max-width: 100%;
+          height: auto;
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 400px));
+          gap: 25px;
+          margin: 0 auto;
+          /* align-items: center;
+          align-content: center;
+          justify-content: center; */
+          /* border: 5px solid red; */
+        }
+      }
